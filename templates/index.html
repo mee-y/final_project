@@ -1,0 +1,15 @@
+
+{% extends "base.html" %}
+
+{% comment %} TODO: 5. base.html 템플릿을 만들어 모든 페이지에서 상속받아 보여주세요 {% endcomment %}
+
+
+{% block content %}
+  <div class="container">
+      {% comment %} TODO: 4. /index 페이지에는 로그인 한 유저 이름을 출력해야 합니다. ex) hello, 홍길동 {% endcomment %}
+    Hello, world<br />
+    사용자이름: {{ user.username }} <br />
+  </div>
+
+{% endblock %}
+
